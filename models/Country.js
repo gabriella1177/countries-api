@@ -6,13 +6,13 @@ const Country = new mongoose.Schema({
     population: Number,
     currencies: [
         {
-            type: mongoose.Schema.Types.ObjectId,
+            type: mongoose.Schema.Types.Mixed,
             ref: 'Currency'
         }
     ],
     languages: [
         {
-            type: mongoose.Schema.Types.ObjectId,
+            type: mongoose.Schema.Types.Mixed,
             ref: 'Language'
         }
     ],
