@@ -4,6 +4,7 @@ const router = express.Router()
 
 const Country = require('../models/Country')
 
+//list all countries
 router.get('/', (req, res) => {
     Country.find({}).then(allcountries => {
         res.json(allcountries)
