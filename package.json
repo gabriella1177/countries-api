@@ -9,8 +9,12 @@
     "file-system": "^2.2.2",
     "mongoose": "^5.5.5"
   },
+  "engines": {
+    "node": "11.13.0"
+  },
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
