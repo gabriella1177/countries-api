@@ -9,8 +9,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 
 app.use('/api/countries/', countriesController)
-app.use('/api/currencies/', currenciesController)
-app.use('/api/languages/', languagesController)
+
 
 
 const port = 5000;
