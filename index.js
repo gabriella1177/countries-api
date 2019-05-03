@@ -8,7 +8,8 @@ app.use(bodyParser.json())
 
 app.use('/api/countries/', countriesController)
 
-const port = 5000;
-app.listen(port, function(){
-    console.log(`Server running on port ${port}`)
+app.set("port", process.env.PORT || 3001)
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`)
 })
