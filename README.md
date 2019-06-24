@@ -36,7 +36,7 @@ Countries JSON API allows for users to fetch data related to every country in th
 - Currencies Used
 - Languages Spoken
 
-##Ideas for Enhancement
+## Ideas for Enhancement
 
 Currently, my application doesn't have a front-end so that will be my first focus for enhancement. I want to allow users to have an account that will let them save countries to their own lists and search through the database with a typical search bar interface. Also, the image links to the flags make it possible to have the flags populate the page when a country is searched.
 
