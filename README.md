@@ -2,7 +2,7 @@
 
 Countries API is a MongoDB/Express application with full CRUD functionality allowing users to traverse data about every country around the globe including the national flag, currency, languages and population statistics.
 
-##Deployed Site
+## Deployed Site
 
 [Countries JSON API](https://salty-headland-45299.herokuapp.com/api/countries/)
 
