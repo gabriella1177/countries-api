@@ -25,7 +25,7 @@ Countries API is a MongoDB/Express application with full CRUD functionality allo
 - [REST Countries API](https://restcountries.eu/#api-endpoints-all) - API used
 - [Axios](https://github.com/axios/axios) - Promise-based HTTP client
 
-##Approach
+## Approach
 
 Countries JSON API allows for users to fetch data related to every country in the world. The data comes from REST Countries API but was tailored to fit my own needs which included information about each country's:
 - Name
